@@ -1,5 +1,5 @@
 pandas
 langchain
 setuptools
-
--e .
+scikit-learn
+#-e .
