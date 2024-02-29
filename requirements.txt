@@ -2,4 +2,5 @@ pandas
 langchain
 setuptools
 scikit-learn
+dill
 #-e .
