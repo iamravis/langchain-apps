@@ -26,7 +26,7 @@ class DataTransformation:
     
     def get_data_transformer_object(self):
         
-        ''' This function is responsible for data transformation'''
+        ''' This function returns a preprocessor responsible for data transformation'''
         
         try:
             # Filter numerical and categorical columns
@@ -112,7 +112,7 @@ class DataTransformation:
             return (
                 train_arr,
                 test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                #self.data_transformation_config.preprocessor_obj_file_path,
             )
             
         except Exception as e:
